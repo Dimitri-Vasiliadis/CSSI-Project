@@ -1,0 +1,46 @@
+body {
+  background-color: #6967AB;
+}
+.hidden {
+  display: none;
+}
+.store_nav {
+  background-color: #6967AB;
+  padding: 5px;
+}
+.main {
+  font-size: 50px;
+  margin-left: 330px;
+  margin-top: 20px;
+}
+img {
+  border-style: solid;
+  padding: 5px;
+  margin-left: 250px;
+}
+#popdown.btn {
+  display: inline-block;
+  background-color: #605959;
+  padding-left: 20px;
+  padding-right: 20px;
+}
+#disappear_ul p {
+  display: inline-block;
+  float: left;
+  list-style-type: none;
+  font-size: 30px;
+  background-color: grey;
+  padding: 5px;
+  padding-left: 90px;
+  padding-right: 90px;
+  margin: 0px;
+}
+#disappear_ul p:hover {
+  display: inline-block;
+  background-color: lightblue;
+  color: black;
+}
+#popdown:hover {
+  background-color: lightblue;
+  color: black;
+}

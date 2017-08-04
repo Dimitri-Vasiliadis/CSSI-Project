@@ -1,0 +1,27 @@
+<html>
+  <head>
+  </head>
+  <body>
+    <h1> {{greeting}}  {{name}}</h1>
+    <form action="/image">
+      What is your name? <input name="my_name_from_url" type="text">
+      What is your favorite color? <input name="favorite_color" type="text">
+      What is your favorite vegetable? <input name="vegetable_from_url" type="text">
+      How many times? <input name="steve_from_url" type="text">
+      </br>
+      <input type="submit">
+    </form>
+    {%if name == "steve"%}
+      {%for i in range(number)%}
+        <ul>
+          <li>Steve!</li>
+        </ul>
+      {%endfor%}
+    {%else%}
+      Whats up {{name}}!
+    {%endif%}
+    <p>Favorite vegetable: {{vegetable}}</p>
+    <img src='/resources/cupcake.png'>
+
+  </body>
+</html>

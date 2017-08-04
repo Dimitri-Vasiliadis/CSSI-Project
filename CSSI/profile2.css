@@ -1,0 +1,52 @@
+.hidden {
+  display: none;
+}
+.store_nav {
+  background-color: white;
+  padding: 5px;
+}
+.main {
+  color: blue;
+  font-size: 50px;
+}
+.summary {
+  color: red;
+  font-size: 40px;
+  text-decoration: underline;
+}
+
+img {
+  border-style: solid;
+  border-color: black;
+}
+
+div#popdown.btn {
+  display: inline-block;
+  background-color: darkgrey;
+  padding-left: 20px;
+  padding-right: 20px;
+}
+
+
+#disappear_ul p {
+  display: inline-block;
+  float: left;
+  list-style-type: none;
+  font-size: 30px;
+  background-color: grey;
+  padding: 5px;
+  padding-left: 90px;
+  padding-right: 90px;
+  margin: 0px;
+}
+
+#disappear_ul p:hover {
+  display: inline-block;
+  background-color: lightblue;
+  color: black;
+}
+
+div#popdown:hover {
+  background-color: lightblue;
+  color: black;
+}
